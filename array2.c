@@ -11,5 +11,6 @@ void main()
     for (count = 0; count < 5; count++)
     {
         printf("marks of student %d is %d \n",count+1,students[count]);
+        
     }
 }
