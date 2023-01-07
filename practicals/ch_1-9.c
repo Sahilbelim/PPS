@@ -4,7 +4,7 @@ void main()
 {
     int t;
     float d, u, a;
-    clrscr();
+   
 
     printf("Enter the time in seconds: ");
     scanf("%d", &t);

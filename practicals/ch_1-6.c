@@ -8,7 +8,7 @@ void main()
 {
     int p, n;
     float r, i;
-    clrscr();
+
     printf("Enter Principal amount:");
     scanf("%d", &p);
     printf("Enter Rate of interest:");

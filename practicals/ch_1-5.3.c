@@ -3,7 +3,7 @@
 void main()
 {
     float a, h, b;
-    clrscr();
+
     printf("Enter Height: ");
     scanf("%f", &h);
     printf("Enter Base: ");

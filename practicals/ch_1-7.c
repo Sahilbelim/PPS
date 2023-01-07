@@ -3,7 +3,7 @@
 void main()
 {
     float f, c;
-    clrscr();
+  
     printf("Enter temperature in Centigrade:");
     scanf("%f", &c);
 

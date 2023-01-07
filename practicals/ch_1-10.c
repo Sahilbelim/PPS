@@ -3,7 +3,7 @@
 void main()
 {
     float km, m, ft, in, cm;
-    clrscr();
+    
     printf("Enter Distance in Kilometer= ");
     scanf("%f", &km);
     m = km * 1000;

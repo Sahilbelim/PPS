@@ -3,7 +3,7 @@
 void main()
 {
     int a, b;
-    clrscr();
+    
     printf("Enter two number:");
     scanf("%d %d", &a, &b);
     if (a > b)
