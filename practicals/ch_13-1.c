@@ -1,28 +1,27 @@
 #include<stdio.h>
 #include<stdlib.h>
-void main()
-
+void main ()
 {
- int N=10;
- int sum=0;
- int i;
- int *p;
+    int *ptr_N, N,i,sum;
+    printf("enter the value of N ");
+    scanf("%d", &N);
 
- printf("Enter the number ");
- scanf("%d", &N);
- p = (int *)malloc(N * sizeof(int));
- if(p==NULL)
- {
-     printf("Unable to allocate memory space. Program terminated.\n");
- }
- printf("Enter %d integer number(s)\n", N);
+    ptr_N = (int *) malloc (N * sizeof(int));
+    if(ptr_N==NULL)
+    {
+    printf("ptr  null");
+    }
+    else
+    {
+    printf("entere the %d number value \n", N);
 
- for (i = 0; i < N; i++)
- {
-     printf("Enter %d", (i + 1));
-     scanf("%d", p);
-     sum += *(p + i);
- }
- printf("sum =%d", sum);
- free(p);
+    for (i = 0; i < N;i++)
+    {
+        printf("enter %d ==> ", i + 1);
+        scanf("%d",ptr_N+i);
+        sum += *(ptr_N + i);
+    }
+    printf("sum ==> %d", sum);
+    }
+    free(ptr_N);
 }
